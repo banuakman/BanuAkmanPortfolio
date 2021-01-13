@@ -3,6 +3,19 @@
     font-weight: bold;
 }
 
+body {
+    background-image: url(assets/LightBackground.jpg);
+}
+
+.container {
+    margin: 25px;
+}
+
+.col-md-8 {
+    background-color: #CBD3D9;
+}
+
 .rounded {
-    padding-inline: 10px;
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
