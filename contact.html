@@ -46,14 +46,32 @@
     </header>
 
     <!-- Main Body goes in Container -->
-    <div class="container">
+    <section class="container">
      <div class=row>
         <div class="col-md-8">
-         <h1>Contact</h1>
+
+            <h1>Contact</h1>
+
+    <!-- Contact Form Added -->
+         <form>
+            <div class="mb-3">
+                <label for="InputName" class="form-label">Name</label>
+                <input type="email" class="form-control" id="InputName" aria-describedby="emailHelp">
+              </div>
+            <div class="mb-3">
+              <label for="InputEmail" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="FormTextArea" class="form-label">Your Message</label>
+                <textarea class="form-control" id="FormTextArea" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
 
         </div>
      </div>
-    </div>
+    </section>
 
     <!-- JavaScript -->
  
