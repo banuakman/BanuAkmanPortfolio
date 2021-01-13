@@ -16,6 +16,10 @@ body {
     padding: 20px;
 }
 
+.col-md-4 {
+    padding: 15px;
+}
+
 .rounded {
     padding-right: 15px;
     padding-bottom: 15px;
